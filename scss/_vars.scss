@@ -1,0 +1,25 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); // Example
+$font-stack: "Open Sans", sans-serif; // Example
+
+// Media Query Breakpoints
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+// MakeContainer
+$container-padding-x: 15px;
+
+// Dinstance & Varibles
+$base-dist: 0.6rem; // Helpers
+
+// Colors

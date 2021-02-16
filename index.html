@@ -11,9 +11,12 @@
 
         <div class="datatrics-box-form">
             <div id="datatrics-box-form-feedback"></div>
-                <form action="https://a3i4d5.emailsp.com/frontend/Subscribe.aspx" method="post" autocomplete="off">
+                <form action="https://a3i4d5.emailsp.com/frontend/Subscribe.aspx" method="post" id="subscribe-form" autocomplete="off">
                     <input name="email" type="email" placeholder="Emailadresse" id="datatrics-box-input-email" class="datatrics-box-input">
                     <button class="datatrics-box-button" type="submit" disabled id="btn-submit" style="display:inline-block;">Tilmeld dig her</button>
+
+                    <input type="checkbox" id="auto-toggle" name="autotoggle">
+                    <label for="autotoggle">Toggle autocomplete</label><br>
                     <input type="hidden" id="list" name="list" value="1">
                 </form>
         </div>

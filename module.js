@@ -5,7 +5,7 @@ const form_field = document.getElementById("datatrics-box-input-email");
 const form_submit = document.getElementById("btn-submit");
 
 const validate_email = (e) => {
-    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(e.target.value)) {
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.target.value)) {
         form_submit.disabled = false
     } else {
         form_submit.disabled = true;

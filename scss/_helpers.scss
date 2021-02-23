@@ -3,55 +3,55 @@
 // Margin/Padding Helpers
 @for $x from 1 through 6 {
   .mt-#{$x} {
-    margin-top: $base-dist * $x !important;
+    margin-top: vars.$base-dist * $x !important;
   }
 
   .mb-#{$x} {
-    margin-bottom: $base-dist * $x !important;
+    margin-bottom: vars.$base-dist * $x !important;
   }
 
   .ml-#{$x} {
-    margin-left: $base-dist * $x !important;
+    margin-left: vars.$base-dist * $x !important;
   }
 
   .mr-#{$x} {
-    margin-right: $base-dist * $x !important;
+    margin-right: vars.$base-dist * $x !important;
   }
 
   .mx-#{$x} {
-    margin-left: $base-dist * $x !important;
-    margin-right: $base-dist * $x !important;
+    margin-left: vars.$base-dist * $x !important;
+    margin-right: vars.$base-dist * $x !important;
   }
 
   .my-#{$x} {
-    margin-top: $base-dist * $x !important;
-    margin-bottom: $base-dist * $x !important;
+    margin-top: vars.$base-dist * $x !important;
+    margin-bottom: vars.$base-dist * $x !important;
   }
 
   .pt-#{$x} {
-    padding-top: $base-dist * $x !important;
+    padding-top: vars.$base-dist * $x !important;
   }
 
   .pb-#{$x} {
-    padding-bottom: $base-dist * $x !important;
+    padding-bottom: vars.$base-dist * $x !important;
   }
 
   .pl-#{$x} {
-    padding-left: $base-dist * $x !important;
+    padding-left: vars.$base-dist * $x !important;
   }
 
   .pr-#{$x} {
-    padding-right: $base-dist * $x !important;
+    padding-right: vars.$base-dist * $x !important;
   }
 
   .px-#{$x} {
-    padding-left: $base-dist * $x !important;
-    padding-right: $base-dist * $x !important;
+    padding-left: vars.$base-dist * $x !important;
+    padding-right: vars.$base-dist * $x !important;
   }
 
   .py-#{$x} {
-    padding-top: $base-dist * $x !important;
-    padding-bottom: $base-dist * $x !important;
+    padding-top: vars.$base-dist * $x !important;
+    padding-bottom: vars.$base-dist * $x !important;
   }
 }
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magento Moodule - Template</title>
+    <link rel="stylesheet" href="module.css">
 </head>
 <body>
     <div class="module-bundle">
@@ -11,19 +12,17 @@
 
         <div class="datatrics-box-form">
             <div id="datatrics-box-form-feedback"></div>
-                <form action="https://a3i4d5.emailsp.com/frontend/Subscribe.aspx" method="post" id="subscribe-form" autocomplete="off">
-                    <input name="email" type="email" placeholder="Emailadresse" id="datatrics-box-input-email" class="datatrics-box-input">
-                    <button class="datatrics-box-button" type="submit" disabled id="btn-submit" style="display:inline-block;">Tilmeld dig her</button>
-
-                    <input type="checkbox" id="auto-toggle" name="autotoggle">
-                    <label for="autotoggle">Toggle autocomplete</label><br>
-                    <input type="hidden" id="list" name="list" value="1">
-                </form>
+            <!-- action="https://a3i4d5.emailsp.com/frontend/Subscribe.aspx" method="post" -->
+            <form  id="subscribe-form" autocomplete="off">
+                <label for="email" class="input-label mb-2">Tilmeld dig vores <span>nyhedsbrev</span></label>
+                <input name="email" type="email" placeholder="Indtast din email adresse.." id="datatrics-box-input-email" class="datatrics-box-input mb-1">
+                <button class="datatrics-box-button" type="submit" disabled id="btn-submit">Tilmeld</button>
+                <input type="hidden" id="list" name="list" value="1">
+            </form>
         </div>
     </div>
     <!-- module script -->
     <script src="module.js"></script>
     <!-- LoDash Scripts optional -->
-    <script src="https://www.jsdelivr.com/package/npm/lodash"></script>
 </body>
 </html>

@@ -16,13 +16,6 @@ const validate_email = (e) => {
     }
 };
 
-const set_transition = (e) => {
-    e.preventDefault();
-    form_submit.className += "submitted";
-    console.log("event fired");
-}
-
 form_field.addEventListener("keyup", validate_email);
 form_field.addEventListener("paste", validate_email);
 form_field.addEventListener("input", validate_email);
-form_submit.addEventListener("click", set_transtition);

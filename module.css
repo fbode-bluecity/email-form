@@ -1,89 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-/* SCSS TEMPLATE FOR INTERNAL MAGENTO MODULES
-* Made by: @bodeby (github)
-* Compiled with: sass --watch <name>.scss:<name>.css --style compressed
-* Media breakpoints: https://devfacts.com/media-queries-breakpoints-2021/ 
-*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+.module-bundle-email-signup div,
+.module-bundle-email-signup span,
+.module-bundle-email-signup applet,
+.module-bundle-email-signup object,
+.module-bundle-email-signup iframe,
+.module-bundle-email-signup h1,
+.module-bundle-email-signup h2,
+.module-bundle-email-signup h3,
+.module-bundle-email-signup h4,
+.module-bundle-email-signup h5,
+.module-bundle-email-signup h6,
+.module-bundle-email-signup p,
+.module-bundle-email-signup blockquote,
+.module-bundle-email-signup pre,
+.module-bundle-email-signup a,
+.module-bundle-email-signup abbr,
+.module-bundle-email-signup acronym,
+.module-bundle-email-signup address,
+.module-bundle-email-signup big,
+.module-bundle-email-signup cite,
+.module-bundle-email-signup code,
+.module-bundle-email-signup del,
+.module-bundle-email-signup dfn,
+.module-bundle-email-signup em,
+.module-bundle-email-signup img,
+.module-bundle-email-signup ins,
+.module-bundle-email-signup kbd,
+.module-bundle-email-signup q,
+.module-bundle-email-signup s,
+.module-bundle-email-signup samp,
+.module-bundle-email-signup small,
+.module-bundle-email-signup strike,
+.module-bundle-email-signup strong,
+.module-bundle-email-signup sub,
+.module-bundle-email-signup sup,
+.module-bundle-email-signup tt,
+.module-bundle-email-signup var,
+.module-bundle-email-signup b,
+.module-bundle-email-signup u,
+.module-bundle-email-signup i,
+.module-bundle-email-signup center,
+.module-bundle-email-signup dl,
+.module-bundle-email-signup dt,
+.module-bundle-email-signup dd,
+.module-bundle-email-signup ol,
+.module-bundle-email-signup ul,
+.module-bundle-email-signup li,
+.module-bundle-email-signup fieldset,
+.module-bundle-email-signup form,
+.module-bundle-email-signup label,
+.module-bundle-email-signup legend,
+.module-bundle-email-signup table,
+.module-bundle-email-signup caption,
+.module-bundle-email-signup tbody,
+.module-bundle-email-signup tfoot,
+.module-bundle-email-signup thead,
+.module-bundle-email-signup tr,
+.module-bundle-email-signup th,
+.module-bundle-email-signup td,
+.module-bundle-email-signup article,
+.module-bundle-email-signup aside,
+.module-bundle-email-signup canvas,
+.module-bundle-email-signup details,
+.module-bundle-email-signup embed,
+.module-bundle-email-signup figure,
+.module-bundle-email-signup figcaption,
+.module-bundle-email-signup footer,
+.module-bundle-email-signup header,
+.module-bundle-email-signup hgroup,
+.module-bundle-email-signup menu,
+.module-bundle-email-signup nav,
+.module-bundle-email-signup output,
+.module-bundle-email-signup ruby,
+.module-bundle-email-signup section,
+.module-bundle-email-signup summary,
+.module-bundle-email-signup time,
+.module-bundle-email-signup mark,
+.module-bundle-email-signup audio,
+.module-bundle-email-signup video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -406,36 +400,42 @@ video {
   height: auto;
 }
 
-.module-bundle {
-  font-family: "Roboto", sans-serif;
+/* SCSS TEMPLATE FOR INTERNAL MAGENTO MODULES
+* Made by: @bodeby (github)
+* Compiled with: sass --watch <name>.scss:<name>.css --style compressed
+* Media breakpoints: https://devfacts.com/media-queries-breakpoints-2021/ 
+*/
+.module-bundle-email-signup {
+  font-family: "Open Sans", sans-serif;
 }
-.module-bundle .datatrics-box-form {
+.module-bundle-email-signup .datatrics-box-form {
   max-width: 500px;
   margin: 0 auto;
   padding: 15px 0;
 }
-.module-bundle .input-label {
+.module-bundle-email-signup .input-label {
   text-align: center;
   display: block;
   font-weight: 500;
 }
-.module-bundle .input-label span {
+.module-bundle-email-signup .input-label span {
   font-weight: 700;
 }
-.module-bundle .datatrics-box-input {
+.module-bundle-email-signup .datatrics-box-input {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #c1c1c1;
   border-radius: 0.25rem;
+  height: unset !important;
   padding: 0.8rem 1rem;
   color: #3f3f3f;
 }
-.module-bundle .datatrics-box-input:focus {
+.module-bundle-email-signup .datatrics-box-input:focus {
   border-color: rgba(19, 144, 181, 0.5);
   outline-offset: 0px !important;
   outline: none !important;
 }
-.module-bundle .datatrics-box-button {
+.module-bundle-email-signup .datatrics-box-button {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -444,27 +444,39 @@ video {
   background-color: #1390b5;
   border: 1px solid #1390b5;
   color: #fff;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: background-color 500ms ease-out;
   -moz-transition: background-color 500ms ease-out;
   -o-transition: background-color 500ms ease-out;
   transition: background-color 500ms ease-out;
 }
-.module-bundle .datatrics-box-button:disabled,
-.module-bundle .datatrics-box-button:disabled:hover {
+.module-bundle-email-signup .datatrics-box-button:disabled,
+.module-bundle-email-signup .datatrics-box-button:disabled:hover {
   background-color: #c1c1c1;
   border-color: #c1c1c1;
   color: #fff;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: background-color 500ms ease-out;
   -moz-transition: background-color 500ms ease-out;
   -o-transition: background-color 500ms ease-out;
   transition: background-color 500ms ease-out;
 }
-.module-bundle .datatrics-box-button:hover {
+.module-bundle-email-signup .datatrics-box-button:hover {
   background-color: #0f7390;
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 250ms ease-out;
+  -moz-transition: background-color 250ms ease-out;
+  -o-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
 }
 
 /*# sourceMappingURL=module.css.map */

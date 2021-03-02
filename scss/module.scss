@@ -81,6 +81,20 @@
 
   .datatrics-box-button:hover {
     background-color: rgb(15, 115, 144);
+    border-color: rgb(15, 115, 144);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: background-color vars.$btn-ease-hover-speed ease-out;
+    -moz-transition: background-color vars.$btn-ease-hover-speed ease-out;
+    -o-transition: background-color vars.$btn-ease-hover-speed ease-out;
+    transition: background-color vars.$btn-ease-hover-speed ease-out;
+  }
+
+  .datatrics-box-button.subscribed {
+    background-color: rgb(7, 141, 58);
+    border-color: rgb(7, 141, 58);
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     backface-visibility: hidden;

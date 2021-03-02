@@ -469,6 +469,19 @@
 }
 .module-bundle-email-signup .datatrics-box-button:hover {
   background-color: #0f7390;
+  border-color: #0f7390;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 250ms ease-out;
+  -moz-transition: background-color 250ms ease-out;
+  -o-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
+}
+.module-bundle-email-signup .datatrics-box-button.subscribed {
+  background-color: #078d3a;
+  border-color: #078d3a;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   backface-visibility: hidden;

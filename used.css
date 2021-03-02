@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+.module-bundle-email-signup div,
+.module-bundle-email-signup form,
+.module-bundle-email-signup label,
+.module-bundle-email-signup span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.mb-1 {
+  margin-bottom: 0.6rem !important;
+}
+.mb-2 {
+  margin-bottom: 1.2rem !important;
+}
+.mb-3 {
+  margin-bottom: 1.8rem !important;
+}
+.mb-4 {
+  margin-bottom: 2.4rem !important;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+.mb-6 {
+  margin-bottom: 3.6rem !important;
+}
+.module-bundle-email-signup {
+  font-family: "Open Sans", sans-serif;
+}
+.module-bundle-email-signup .datatrics-box-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.module-bundle-email-signup .input-label {
+  text-align: center;
+  display: block;
+  font-weight: 500;
+}
+.module-bundle-email-signup .input-label span {
+  font-weight: 700;
+}
+.module-bundle-email-signup .datatrics-box-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c1c1c1;
+  border-radius: 0.25rem;
+  height: unset !important;
+  padding: 0.8rem 1rem;
+  color: #3f3f3f;
+}
+.module-bundle-email-signup .datatrics-box-input:focus {
+  border-color: rgba(19, 144, 181, 0.5);
+  outline-offset: 0 !important;
+  outline: 0 !important;
+}
+.module-bundle-email-signup .datatrics-box-button {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+  background-color: #1390b5;
+  border: 1px solid #1390b5;
+  color: #fff;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.module-bundle-email-signup .datatrics-box-button:disabled,
+.module-bundle-email-signup .datatrics-box-button:disabled:hover {
+  background-color: #c1c1c1;
+  border-color: #c1c1c1;
+  color: #fff;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.module-bundle-email-signup .datatrics-box-button:hover {
+  background-color: #0f7390;
+  border-color: #0f7390;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 250ms ease-out;
+  -moz-transition: background-color 250ms ease-out;
+  -o-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
+}
+.module-bundle-email-signup .datatrics-box-button.subscribed {
+  background-color: #078d3a;
+  border-color: #078d3a;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background-color 250ms ease-out;
+  -moz-transition: background-color 250ms ease-out;
+  -o-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
+}
